@@ -15,6 +15,7 @@
 		6462C8C924F8EB1B007869D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6462C8C724F8EB1B007869D8 /* LaunchScreen.storyboard */; };
 		6462C8D224F9EB84007869D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C8D124F9EB84007869D8 /* Model.swift */; };
 		6462C8D424F9F4AF007869D8 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C8D324F9F4AF007869D8 /* MemoListTableViewController.swift */; };
+		6462C8D624FA0592007869D8 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C8D524FA0592007869D8 /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6462C8CA24F8EB1B007869D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6462C8D124F9EB84007869D8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6462C8D324F9F4AF007869D8 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		6462C8D524FA0592007869D8 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				6462C8CA24F8EB1B007869D8 /* Info.plist */,
 				6462C8C224F8EB11007869D8 /* KxMemo.xcdatamodeld */,
 				6462C8D324F9F4AF007869D8 /* MemoListTableViewController.swift */,
+				6462C8D524FA0592007869D8 /* ComposeViewController.swift */,
 			);
 			path = KxMemo;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				6462C8C424F8EB11007869D8 /* KxMemo.xcdatamodeld in Sources */,
 				6462C8BA24F8EB11007869D8 /* AppDelegate.swift in Sources */,
 				6462C8D424F9F4AF007869D8 /* MemoListTableViewController.swift in Sources */,
+				6462C8D624FA0592007869D8 /* ComposeViewController.swift in Sources */,
 				6462C8BC24F8EB11007869D8 /* SceneDelegate.swift in Sources */,
 				6462C8D224F9EB84007869D8 /* Model.swift in Sources */,
 			);
