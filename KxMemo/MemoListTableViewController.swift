@@ -51,6 +51,7 @@ class MemoListTableViewController: UITableViewController {
             
         token = NotificationCenter.default.addObserver(forName: ComposeViewController.newMemoDidInsert, object: nil, queue: OperationQueue.main) {
             [weak self] (noti) in
+            
             self?.tableView.reloadData()
         }
         
