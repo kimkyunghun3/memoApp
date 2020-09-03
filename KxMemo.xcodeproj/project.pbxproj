@@ -18,6 +18,7 @@
 		6462C8D224F9EB84007869D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C8D124F9EB84007869D8 /* Model.swift */; };
 		6462C8D424F9F4AF007869D8 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C8D324F9F4AF007869D8 /* MemoListTableViewController.swift */; };
 		6462C8D624FA0592007869D8 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462C8D524FA0592007869D8 /* ComposeViewController.swift */; };
+		64B1CFCE2500D171006DF863 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1CFCD2500D171006DF863 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		6462C8D124F9EB84007869D8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6462C8D324F9F4AF007869D8 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		6462C8D524FA0592007869D8 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		64B1CFCD2500D171006DF863 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		6462C8B824F8EB11007869D8 /* KxMemo */ = {
 			isa = PBXGroup;
 			children = (
+				64B1CFCC2500D138006DF863 /* Data */,
 				6462C8D024F9EB36007869D8 /* Model */,
 				6462C8B924F8EB11007869D8 /* AppDelegate.swift */,
 				6462C8BB24F8EB11007869D8 /* SceneDelegate.swift */,
@@ -88,6 +91,14 @@
 				6462C8D124F9EB84007869D8 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		64B1CFCC2500D138006DF863 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				64B1CFCD2500D171006DF863 /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				6462C8BC24F8EB11007869D8 /* SceneDelegate.swift in Sources */,
 				6462C8D224F9EB84007869D8 /* Model.swift in Sources */,
 				6457CF0224FCEBF9008252A5 /* UIViewController+Alert.swift in Sources */,
+				64B1CFCE2500D171006DF863 /* DataManager.swift in Sources */,
 				6457CF0424FD1737008252A5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
