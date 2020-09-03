@@ -73,7 +73,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jti-Di-jDX">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="FUO-Tj-3ib"/>
+                                    <barButtonItem systemItem="compose" id="FUO-Tj-3ib">
+                                        <connections>
+                                            <segue destination="GCH-rn-Cyh" kind="presentation" id="GEn-sw-lxx"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jeZ-jc-O9d">
@@ -133,6 +137,9 @@
                         <viewLayoutGuide key="safeArea" id="Qcx-To-ymK"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="sQO-Ml-0fe"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="jeZ-jc-O9d" id="62m-BK-VIP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CNY-W6-jM6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -219,4 +226,7 @@
             <point key="canvasLocation" x="1495.6521739130435" y="-548.4375"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="GEn-sw-lxx"/>
+    </inferredMetricsTieBreakers>
 </document>
