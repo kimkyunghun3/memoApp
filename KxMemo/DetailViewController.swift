@@ -42,7 +42,7 @@ class DetailViewController: UIViewController {
         token = NotificationCenter.default.addObserver(forName: ComposeViewController.memoDidChange, object: nil, queue: OperationQueue.main, using: { [weak self] (noti) in
             self?.memoTableView.reloadData()
         })
-        // Do any additional setup after loading the view.
+        
     }
     
 
