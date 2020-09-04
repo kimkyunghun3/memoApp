@@ -106,7 +106,7 @@ extension ComposeViewController: UITextViewDelegate {
 
 extension ComposeViewController: UIAdaptivePresentationControllerDelegate {
     func presentationControllerDidAttemptToDismiss(_ presentationController: UIPresentationController) {
-        let alert = UIAlertController(title: "알림", message: "편집할 내용을 저장할까요?", preferredStyle: .alert)
+         let alert = UIAlertController(title: "알림", message: "편집할 내용을 저장할까요?", preferredStyle: .alert)
         
         let okAction = UIAlertAction(title: "확인", style: .default){
             [weak self] (action) in
